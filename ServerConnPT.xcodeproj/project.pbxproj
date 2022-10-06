@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DF5BBE1928EDEB7D005B3FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BBE1828EDEB7D005B3FC1 /* AppDelegate.swift */; };
 		DF5BBE1B28EDEB7D005B3FC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BBE1A28EDEB7D005B3FC1 /* SceneDelegate.swift */; };
-		DF5BBE1D28EDEB7D005B3FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BBE1C28EDEB7D005B3FC1 /* ViewController.swift */; };
 		DF5BBE2228EDEB7F005B3FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5BBE2128EDEB7F005B3FC1 /* Assets.xcassets */; };
 		DF5BBE2528EDEB7F005B3FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5BBE2328EDEB7F005B3FC1 /* LaunchScreen.storyboard */; };
 		DF5BBE3028EDEB80005B3FC1 /* ServerConnPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BBE2F28EDEB80005B3FC1 /* ServerConnPTTests.swift */; };
@@ -46,7 +45,6 @@
 		DF5BBE1528EDEB7D005B3FC1 /* ServerConnPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerConnPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5BBE1828EDEB7D005B3FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF5BBE1A28EDEB7D005B3FC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF5BBE1C28EDEB7D005B3FC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF5BBE2128EDEB7F005B3FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF5BBE2428EDEB7F005B3FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF5BBE2628EDEB7F005B3FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 				DF5BBE4828EE5CAB005B3FC1 /* Util */,
 				DF5BBE1828EDEB7D005B3FC1 /* AppDelegate.swift */,
 				DF5BBE1A28EDEB7D005B3FC1 /* SceneDelegate.swift */,
-				DF5BBE1C28EDEB7D005B3FC1 /* ViewController.swift */,
 				DF5BBE2128EDEB7F005B3FC1 /* Assets.xcassets */,
 				DF5BBE2328EDEB7F005B3FC1 /* LaunchScreen.storyboard */,
 				DF5BBE2628EDEB7F005B3FC1 /* Info.plist */,
@@ -367,7 +364,6 @@
 			files = (
 				DF5BBE4C28EE5CC2005B3FC1 /* UIView.swift in Sources */,
 				DF5BBE5728EE5D04005B3FC1 /* SignUpModel.swift in Sources */,
-				DF5BBE1D28EDEB7D005B3FC1 /* ViewController.swift in Sources */,
 				DF5BBE5328EE5CE5005B3FC1 /* SignUpViewModel.swift in Sources */,
 				DF5BBE6428EE5DA8005B3FC1 /* APIConstants.swift in Sources */,
 				DF5BBE1928EDEB7D005B3FC1 /* AppDelegate.swift in Sources */,

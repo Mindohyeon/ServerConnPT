@@ -6,14 +6,9 @@ class SignUpVC: UIViewController {
     
     private let viewModel = SignUpViewModel()
     
-    private let nameLabel = UILabel().then {
-        $0.text = "이륾"
-        $0.font = UIFont(name: "AppleSDGothicNeo-Bold", size: 25)
-        $0.textColor = .black
-    }
-    
-    private let nameTextField = UITextField().then {
-        $0.placeholder = "이름 입력"
+    private let titleLabel = UILabel().then {
+        $0.font = .systemFont(ofSize: 32)
+        $0.text = "회원가입"
     }
     
     private let emailTextLabel = UILabel().then {
@@ -49,7 +44,6 @@ class SignUpVC: UIViewController {
     }
     
     @objc func submitBtnDidTap(_ sender: UIButton) {
-        guard let name = nameTextField.text else { return }
         guard let id = emailTextField.text else { return }
         guard let password = passwordTextField.text else { return }
         print("hi")
@@ -58,22 +52,17 @@ class SignUpVC: UIViewController {
 
     
     func addView() {
-        view.addSubviews(emailTextLabel, emailTextField, passwordTextLabel, passwordTextField, submitBtn, nameLabel, nameTextField)
+        view.addSubviews(titleLabel, emailTextLabel, emailTextField, passwordTextLabel, passwordTextField, submitBtn)
     }
     
     func setLayout() {
-        nameLabel.snp.makeConstraints {
-            $0.top.equalToSuperview().inset(160)
+        titleLabel.snp.makeConstraints {
+            $0.top.equalToSuperview().inset(120)
             $0.centerX.equalToSuperview()
         }
         
-        nameTextField.snp.makeConstraints {
-            $0.top.equalTo(nameLabel.snp.bottom).offset(64)
-            $0.leading.equalToSuperview().inset(56)
-        }
-        
         emailTextLabel.snp.makeConstraints {
-            $0.top.equalTo(nameTextField.snp.bottom).offset(64)
+            $0.top.equalTo(titleLabel.snp.bottom).offset(64)
             $0.leading.equalToSuperview().inset(56)
         }
         
@@ -84,7 +73,7 @@ class SignUpVC: UIViewController {
         
         passwordTextLabel.snp.makeConstraints {
             $0.top.equalTo(emailTextField.snp.bottom).offset(40)
-            $0.leading.equalTo(emailTextField.snp.leading)
+            $0.leading.equalTo(emailTextLabel.snp.leading)
         }
         
         passwordTextField.snp.makeConstraints {
