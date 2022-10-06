@@ -22,6 +22,7 @@
 		DF5BBE5D28EE5D5A005B3FC1 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = DF5BBE5C28EE5D5A005B3FC1 /* Then */; };
 		DF5BBE6028EE5D7D005B3FC1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DF5BBE5F28EE5D7D005B3FC1 /* SnapKit */; };
 		DF5BBE6428EE5DA8005B3FC1 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BBE6328EE5DA8005B3FC1 /* APIConstants.swift */; };
+		DF5BBE6A28EE67DD005B3FC1 /* SignUpValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BBE6928EE67DD005B3FC1 /* SignUpValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		DF5BBE5428EE5CF3005B3FC1 /* SIgnUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnUpVC.swift; sourceTree = "<group>"; };
 		DF5BBE5628EE5D04005B3FC1 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
 		DF5BBE6328EE5DA8005B3FC1 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		DF5BBE6928EE67DD005B3FC1 /* SignUpValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,13 +113,11 @@
 		DF5BBE1728EDEB7D005B3FC1 /* ServerConnPT */ = {
 			isa = PBXGroup;
 			children = (
-				DF5BBE6128EE5D9B005B3FC1 /* Service */,
-				DF5BBE4D28EE5CC8005B3FC1 /* Scene */,
+				DF5BBE6628EE679F005B3FC1 /* Scene */,
+				DF5BBE6528EE678E005B3FC1 /* Source */,
 				DF5BBE4828EE5CAB005B3FC1 /* Util */,
 				DF5BBE1828EDEB7D005B3FC1 /* AppDelegate.swift */,
 				DF5BBE1A28EDEB7D005B3FC1 /* SceneDelegate.swift */,
-				DF5BBE2128EDEB7F005B3FC1 /* Assets.xcassets */,
-				DF5BBE2328EDEB7F005B3FC1 /* LaunchScreen.storyboard */,
 				DF5BBE2628EDEB7F005B3FC1 /* Info.plist */,
 			);
 			path = ServerConnPT;
@@ -209,6 +209,7 @@
 		DF5BBE6128EE5D9B005B3FC1 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				DF5BBE6728EE67BD005B3FC1 /* Test */,
 				DF5BBE6228EE5DA0005B3FC1 /* API */,
 			);
 			path = Service;
@@ -220,6 +221,40 @@
 				DF5BBE6328EE5DA8005B3FC1 /* APIConstants.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		DF5BBE6528EE678E005B3FC1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DF5BBE6128EE5D9B005B3FC1 /* Service */,
+				DF5BBE4D28EE5CC8005B3FC1 /* Scene */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DF5BBE6628EE679F005B3FC1 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				DF5BBE2128EDEB7F005B3FC1 /* Assets.xcassets */,
+				DF5BBE2328EDEB7F005B3FC1 /* LaunchScreen.storyboard */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		DF5BBE6728EE67BD005B3FC1 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				DF5BBE6828EE67C8005B3FC1 /* SignUp */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		DF5BBE6828EE67C8005B3FC1 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				DF5BBE6928EE67DD005B3FC1 /* SignUpValidator.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,6 +401,7 @@
 				DF5BBE5728EE5D04005B3FC1 /* SignUpModel.swift in Sources */,
 				DF5BBE5328EE5CE5005B3FC1 /* SignUpViewModel.swift in Sources */,
 				DF5BBE6428EE5DA8005B3FC1 /* APIConstants.swift in Sources */,
+				DF5BBE6A28EE67DD005B3FC1 /* SignUpValidator.swift in Sources */,
 				DF5BBE1928EDEB7D005B3FC1 /* AppDelegate.swift in Sources */,
 				DF5BBE5528EE5CF3005B3FC1 /* SIgnUpVC.swift in Sources */,
 				DF5BBE1B28EDEB7D005B3FC1 /* SceneDelegate.swift in Sources */,
