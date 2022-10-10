@@ -8,7 +8,12 @@
 import Foundation
 
 class SignUpValidator {
+    
     func isValidEmail(email: String) -> Bool {
         return email.count != 0
+    }
+    
+    func isValidPassword(password: String) -> Bool {
+        return password.count != 0
     }
 }

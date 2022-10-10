@@ -25,15 +25,22 @@ final class ServerConnPTTests: XCTestCase {
     func testExample() throws {
     }
     
-    func testSignUpValidator_whenValidEmailProvided_shouldReturnFalse() {
+    func testSignUpValidator_whenValidEmailProvided_shouldReturnFalsej() {
         
         let user = SignUpModel(email: "", password: "")
         
         let isValidEmail = sut.isValidEmail(email: user.email)
         
-//        XCTFail()
-        
         XCTAssertTrue(isValidEmail, "이메일 칸이 비어있으면 안됨")
+    }
+    
+    func testSignUpValidator_whenValidPasswordPrivided_shouldReturnFalse() {
+        
+        let user = SignUpModel(email: "", password: "")
+        
+        let isValidPassword = sut.isValidPassword(password: user.password)
+        
+        XCTAssertTrue(isValidPassword, "비밀번호 칸이 비어있으면 안됨")
     }
 
     func testPerformanceExample() throws {

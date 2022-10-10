@@ -113,7 +113,7 @@
 		DF5BBE1728EDEB7D005B3FC1 /* ServerConnPT */ = {
 			isa = PBXGroup;
 			children = (
-				DF5BBE6628EE679F005B3FC1 /* Scene */,
+				DF5BBE7028F4E4A2005B3FC1 /* Resource */,
 				DF5BBE6528EE678E005B3FC1 /* Source */,
 				DF5BBE4828EE5CAB005B3FC1 /* Util */,
 				DF5BBE1828EDEB7D005B3FC1 /* AppDelegate.swift */,
@@ -232,15 +232,6 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		DF5BBE6628EE679F005B3FC1 /* Scene */ = {
-			isa = PBXGroup;
-			children = (
-				DF5BBE2128EDEB7F005B3FC1 /* Assets.xcassets */,
-				DF5BBE2328EDEB7F005B3FC1 /* LaunchScreen.storyboard */,
-			);
-			path = Scene;
-			sourceTree = "<group>";
-		};
 		DF5BBE6728EE67BD005B3FC1 /* Test */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +246,15 @@
 				DF5BBE6928EE67DD005B3FC1 /* SignUpValidator.swift */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		DF5BBE7028F4E4A2005B3FC1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DF5BBE2128EDEB7F005B3FC1 /* Assets.xcassets */,
+				DF5BBE2328EDEB7F005B3FC1 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
