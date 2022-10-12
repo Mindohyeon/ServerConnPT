@@ -1,6 +1,7 @@
 import UIKit
 import Then
 import SnapKit
+import RxSwift
 
 class SignUpVC: UIViewController {
     
